@@ -1,7 +1,6 @@
-[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(a7920db8-eac7-4c03-9a66-9e23da38b25b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(9a4c998d-f986-420b-b4f5-a68f019ec8d3), Some(CommandSource(console0)))[0m
 [0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
 [0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
 [0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/s4n/Documents/Evaluacion/target/scala-2.12/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
-[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Sep 23, 2021, 2:41:10 PM[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Sep 23, 2021, 2:56:32 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

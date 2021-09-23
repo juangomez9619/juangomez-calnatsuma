@@ -26,22 +26,25 @@ object Main extends App {
 
   // Suma
   def sumaNat(nat1:Nat, nat2:Nat): Nat = {
-      def iSumaNat(nat1:Nat, nat2:Nat,aux:Int):Nat = {
-      
-        nat1
 
-      }
+
    if (esCero(nat1)) nat2
    else if (esCero(nat2)) nat1
-   else {
-        iSumaNat(nat1,nat2,0) 
-   }
+   else  Suc( conIntANat(imprimirNat(nat1).count(_ == 'S') + (imprimirNat(nat2).count(_ == 'S')) -1 )) 
+   
   }
 
   //main
   //Pruebas
   //println(imprimirNat(conIntANat(3))) ok :D
+  //print(sumaNat(conIntANat(2),conIntANat(1))) ok pero no me gusta la solucion
+  //
 
+  val num1 = leerInt("Leer primer entero: ")
+
+  val num2 = leerInt("Leer segundo entero: ")
+
+  print(sumaNat(conIntANat(num1),conIntANat(num2)))
 
 
 }
