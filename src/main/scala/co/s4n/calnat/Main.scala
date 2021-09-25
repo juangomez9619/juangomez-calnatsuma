@@ -1,5 +1,4 @@
 package co.s4n.calnat
-
 import scala.io.StdIn
 
 object Main extends App {
